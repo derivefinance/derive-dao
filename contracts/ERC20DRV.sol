@@ -45,13 +45,10 @@ contract ERC20DRV is ERC20(){
     address public RewardEscrow = address(0);
 
     constructor() public { 
-        /**
-        * @notice Contract constructor
-        * @param _name Token full name
-        * @param _symbol Token symbol
-        * @param _decimals Number of decimals for token
-        */
-        
+        _name     = "Derive DAO Token";
+        _symbol   = "DRV";
+        _decimals = 18;        
+
         uint256 init_supply = INITIAL_SUPPLY * 10 ** 18;
         _balances[msg.sender] = init_supply;
         _totalSupply = init_supply;

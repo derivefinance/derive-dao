@@ -15,9 +15,9 @@ contract ERC20 is Context, IERC20 {
     mapping (address => mapping (address => uint256)) private _allowances;
     uint256 internal _totalSupply;
 
-    string public _name    = "Derive DAO Token";
-    string public _symbol  = "DRV";
-    uint8 public _decimals = 18;
+    string public _name;
+    string public _symbol;
+    uint8  public _decimals;
     
     /**
      * @dev Constructor
