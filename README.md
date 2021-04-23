@@ -14,6 +14,7 @@ To install dependencies: ```npm install```
 Create an environment variable with your desider private key, e.g.:
 
 ```export PRIVATE_KEY_TESTNET=0x0000000000000000000000000000000000000000000000000000000000000000``` 
+
 To deploy on BSC testnet: ```npm run deploy-testnet```
 
 See package.json and truffle-config.js for more environments.
