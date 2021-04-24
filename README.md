@@ -20,5 +20,3 @@ Create an environment variable with your desider private key, e.g.:
 To deploy on BSC testnet: ```npm run deploy-testnet```
 
 See package.json and truffle-config.js for more environments.
-
-To f
