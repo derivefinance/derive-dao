@@ -13,7 +13,7 @@ To install dependencies: ```npm install```
 
 ### Deploying contracts
 
-Create an environment variable with your desider private key, e.g.:
+Create an environment variable with the private key for your environment, e.g.:
 
 ```export PRIVATE_KEY_TESTNET=0x0000000000000000000000000000000000000000000000000000000000000000``` 
 
